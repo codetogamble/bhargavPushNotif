@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_id": "pacific-pride-122413",
+    "project_number": "60408388821",
+    "name": "PushNotification"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60408388821:android:d4ebe75069fed62e",
+        "client_id": "android:dav.vs.com.pushnotification",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "dav.vs.com.pushnotification"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 2,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

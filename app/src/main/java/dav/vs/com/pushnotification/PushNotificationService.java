@@ -25,7 +25,7 @@ public class PushNotificationService extends GcmListenerService {
         if (message != null) {
             Log.d("reg", message);
             Notification.Builder nBuilder = new Notification.Builder(this)
-//                    .setSmallIcon(R.drawable.venturesity_icon)
+                    .setSmallIcon(R.drawable.bell)
                     .setContentTitle(message)
                     .setContentText("Hellooo !!").setContentIntent(pendingIntent);
             NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
